@@ -1,0 +1,10 @@
+/* Grid.css */
+.border {
+  margin: 1px; /* Adjust the margin as needed */
+  padding: 1px; /* Adjust the padding as needed */
+}
+
+/* Optionally, you can remove the outer container padding to minimize space */
+.container {
+  padding: 0;
+}
