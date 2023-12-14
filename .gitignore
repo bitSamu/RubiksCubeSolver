@@ -1,0 +1,431 @@
+# Erstellt von https://www.toptal.com/developers/gitignore/api/reactnative,java,maven,visualstudiocode,intellij
+# Bearbeiten unter https://www.toptal.com/developers/gitignore?templates=reactnative,java,maven,visualstudiocode,intellij
+
+### Intellij ###
+# Deckt JetBrains-IDEs ab: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm und Rider
+# Referenz: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Benutzerspezifische Dinge
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS-Benutzerspezifisch
+.idea/**/aws.xml
+
+# Generierte Dateien
+.idea/**/contentModel.xml
+
+# Sensible Dateien oder Dateien mit hoher Abwanderungsrate
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+#Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle und Maven mit automatischem Import
+# Wenn Sie Gradle oder Maven mit automatischem Import verwenden, sollten Sie Moduldateien ausschließen.
+# da sie neu erstellt werden und zu Abwanderungen führen können. Kommentieren Sie bei Verwendung den Kommentar
+# automatischer Import.
+# .idea/artefacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer-Plugin
+.idea/**/mongoSettings.xml
+
+# Dateibasiertes Projektformat
+*.iws
+
+# IntelliJ
+aus/
+
+# mpeltonen/sbt-idea-Plugin
+.idea_modules/
+
+# JIRA-Plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure-Plugin
+.idea/replstate.xml
+
+# SonarLint-Plugin
+.idea/sonarlint/
+
+# Crashlytics-Plugin (für Android Studio und IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+Stoffeigenschaften
+
+# Editorbasierter Rest-Client
+.idea/httpRequests
+
+# Android Studio 3.1+ serialisierte Cache-Datei
+.idea/caches/build_file_checksums.ser
+
+### Intellij-Patch ###
+# Kommentargrund: https://github.com/joeblau/gitignore.io/issues/186#issuecomment -215987721
+
+# *.iml
+# module.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint-Plugin
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
+
+# SonarQube-Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
+
+# Markdown Navigator-Plugin
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Fehler bei der Erstellung der Cache-Datei
+# Siehe https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
+
+# CodeStream-Plugin
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# Azure Toolkit für IntelliJ-Plugin
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
+
+### Java ###
+# Kompilierte Klassendatei
+*.Klasse
+
+# Logdatei
+*.Protokoll
+
+# BlueJ-Dateien
+*.ctxt
+
+# Mobile Tools für Java (J2ME)
+.mtj.tmp/
+
+# Paketdateien #
+*.Krug
+*.Krieg
+*.nar
+*.Ohr
+*.Reißverschluss
+*.tar.gz
+*.rar
+
+# Absturzprotokolle virtueller Maschinen finden Sie unter http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+### Maven ###
+Ziel/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generierte Dateien
+# Eclipse Core
+.Projekt
+# JDT-spezifisch (Eclipse Java Development Tools)
+.classpath
+
+### ReactNative ###
+# Native Stack-Basis reagieren
+
+.Messe
+__generiert__
+
+### ReactNative.Android Stack ###
+# Gradle-Dateien
+.gradle/
+bauen/
+
+# Lokale Konfigurationsdatei (SDK-Pfad usw.)
+local.properties
+
+# Protokoll-/Betriebssystemdateien
+
+# Von Android Studio generierte Dateien und Ordner
+erfasst/
+.externalNativeBuild/
+.cxx/
+*.apk
+Ausgabe.json
+
+# IntelliJ
+*.iml
+.Idee/
+misc.xml
+BereitstellungTargetDropDown.xml
+render.experimental.xml
+
+# Keystore-Dateien
+*.jks
+*.keystore
+
+# Google-Dienste (z. B. APIs oder Firebase)
+google-services.json
+
+# Android-Profilerstellung
+*.hprof
+
+### ReactNative.Linux-Stack ###
+*~
+
+# temporäre Dateien, die erstellt werden können, wenn ein Prozess noch ein Handle einer gelöschten Datei offen hat
+.fuse_hidden*
+
+# KDE-Verzeichniseinstellungen
+.Verzeichnis
+
+# Linux-Papierkorb, der auf jeder Partition oder Festplatte erscheinen kann
+.Müll-*
+
+# .nfs-Dateien werden erstellt, wenn eine geöffnete Datei entfernt wird, aber weiterhin darauf zugegriffen wird
+.nfs*
+
+### ReactNative.Gradle Stack ###
+.gradle
+**/bauen/
+!src/**/build/
+
+# Gradle-GUI-Konfiguration ignorieren
+gradle-app.setting
+
+# Vermeiden Sie es, die Gradle-Wrapper-JAR-Datei zu ignorieren (.jar-Dateien werden normalerweise ignoriert)
+!gradle-wrapper.jar
+
+# Vermeiden Sie es, Gradle-Wrapper-Eigenschaften zu ignorieren
+!gradle-wrapper.properties
+
+# Cache des Projekts
+.gradletasknamecache
+
+# Vom Eclipse Gradle-Plugin generierte Dateien
+# Eclipse Core
+# JDT-spezifisch (Eclipse Java Development Tools)
+
+### ReactNative.Node Stack ###
+# Protokolle
+Protokolle
+npm-debug.log*
+Yarn-debug.log*
+Garn-Fehler.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnoseberichte (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Laufzeitdaten
+Pids
+*.pid
+*.Samen
+*.pid.lock
+
+# Verzeichnis für instrumentierte Bibliotheken, die von jscoverage/JSCover generiert wurden
+lib-cov
+
+# Abdeckungsverzeichnis, das von Tools wie Istanbul verwendet wird
+Abdeckung
+*.lcov
+
+# NYC-Testabdeckung
+.nyc_output
+
+# Grunt-Zwischenspeicher (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunzen
+
+# Bower-Abhängigkeitsverzeichnis (https://bower.io/)
+Bower_Components
+
+# Node-WAF-Konfiguration
+.lock-wscript
+
+# Kompilierte binäre Addons (https://nodejs.org/api/addons.html)
+erstellen/veröffentlichen
+
+# Abhängigkeitsverzeichnisse
+node_modules/
+jspm_packages/
+
+# Snowpack-Abhängigkeitsverzeichnis (https://snowpack.dev/)
+web_modules/
+
+# TypeScript-Cache
+*.tsbuildinfo
+
+# Optionales NPM-Cache-Verzeichnis
+.npm
+
+# Optionaler Eslint-Cache
+.eslintcache
+
+# Optionaler Stylelint-Cache
+.stylelintcache
+
+# Mikrobundle-Cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optionaler REPL-Verlauf
+.node_repl_history
+
+# Ausgabe von „npm pack“
+*.tgz
+
+# Garnintegritätsdatei
+.garnintegrität
+
+# dotenv-Umgebungsvariablendateien
+.env
+.env.development.local
+.env.test.local
+.env.produktion.local
+.env.local
+
+# Paketbündel-Cache (https://parceljs.org/)
+.Zwischenspeicher
+.parcel-cache
+
+# Next.js Build-Ausgabe
+.nächste
+aus
+
+# Nuxt.js erstellt/generiert die Ausgabe
+.nuxt
+dist
+
+# Gatsby-Dateien
+.Zwischenspeicher/
+# Kommentieren Sie in der öffentlichen Zeile, ob Ihr Projekt Gatsby und nicht Next.js verwendet
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# öffentlich
+
+# vuepress Build-Ausgabe
+.vuepress/dist
+
+# vuepress v2.x temporäres und Cache-Verzeichnis
+.temp
+
+# Docusaurus-Cache und generierte Dateien
+.docusaurus
+
+# Serverlose Verzeichnisse
+.serverlos/
+
+# FuseBox-Cache
+.Sicherungskasten/
+
+# Lokale DynamoDB-Dateien
+.dynamodb/
+
+# TernJS-Portdatei
+.tern-port
+
+# Speichert VSCode-Versionen, die zum Testen von VSCode-Erweiterungen verwendet werden
+.vscode-test
+
+# Garn v2
+.garn/cache
+.garn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### ReactNative.Xcode-Stack ###
+## Benutzereinstellungen
+xcuserdata/
+
+## Xcode 8 und früher
+*.xcscmblueprint
+*.xccheckout
+
+### ReactNative.Buck Stack ###
+Buck-out/
+.buckconfig.local
+.buckd/
+.buckversion
+.fakebuckversion
+
+### ReactNative.macOS-Stack ###
+# Allgemein
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Das Symbol muss mit zwei \r enden
+Symbol
+
+
+# Miniaturansichten
+._*
+
+# Dateien, die möglicherweise im Stammverzeichnis eines Volumes angezeigt werden
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Müll
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Verzeichnisse, die möglicherweise auf der Remote-AFP-Freigabe erstellt wurden
+.AppleDB
+.AppleDesktop
+Netzwerk-Papierkorbordner
+Temporäre Gegenstände
+.apdisk
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Lokaler Verlauf für Visual Studio Code
+.Geschichte/
+
+# Erstellte Visual Studio-Codeerweiterungen
+*.vsix
+
+### VisualStudioCode-Patch ###
+# Ignorieren Sie den gesamten lokalen Dateiverlauf
+.Geschichte
+.ionid
+
+# Ende von https://www.toptal.com/developers/gitignore/api/reactnative,java,maven,visualstudiocode,intellij
